@@ -209,7 +209,7 @@ public class MyFrame extends JFrame implements KeyListener {
                 pointGenerator();
                 levelProgression();
                 try {
-                    Thread.sleep(10); // Main game loop runs every 10 milliseconds
+                    Thread.sleep(10); // Main game loop runs every 10 ms
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
